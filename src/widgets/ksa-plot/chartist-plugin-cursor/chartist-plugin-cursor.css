@@ -1,0 +1,5 @@
+.data-cursor-xline, .data-cursor-yline {
+    stroke-width: 1px;
+    stroke: #666;
+    fill:#666;
+}

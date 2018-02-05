@@ -1,0 +1,29 @@
+.window-title {
+    font-weight: bold;
+    float: left;
+    padding-right: 1em;
+    padding-left: 1em;
+     z-index: 999;
+}
+
+.window-closebtn, .window-minmaxbtn {
+    text-decoration: none;
+    padding-right: 1em;
+    padding-left: 1em;
+    z-index: 1001;
+    float: right;
+}
+.window-minmaxbtn {
+    color: white;
+    background:rgb(164, 180, 191);
+}
+.window-closebtn {
+    font-size: 120%;
+    color: white;
+    background: maroon;
+    
+}
+
+.ksa-window .webix_layout_line {
+    overflow-y: scroll;
+}

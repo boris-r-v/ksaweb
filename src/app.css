@@ -1,0 +1,29 @@
+html, body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.webix_hcell {
+  height: 34px !important;
+  line-height: 34px !important;
+}
+
+.webix_ss_header {
+  height: 34px  !important;
+}
+
+.ksa-splash {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16pt;
+  color: lightgray;
+  font-weight: bold;
+}

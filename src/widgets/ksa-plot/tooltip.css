@@ -1,0 +1,72 @@
+.data-cursor {
+  position: absolute;
+  display: inline-block;
+  min-width: 5em;
+  background: #fff;
+  border: solid 1px #ddd;
+  color: #453D3F;
+  font-family: 'PT Sans', Tahoma;
+  pointer-events: none;
+  z-index: 10000;
+  opacity: 0;
+  transition: opacity .2s linear; 
+}
+
+.data-cursor table {
+  border: none;
+}
+
+.data-cursor th {
+  border-bottom: solid 2px #3498db;
+}
+.data-cursor td, .data-cursor th {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.data-cursor td {
+  border-bottom: solid 1px #eee;
+}
+
+.data-cursor-visible {
+  opacity: 1;
+}
+
+
+.chartist-tooltip {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  min-width: 5em;
+  padding: .5em;
+  background: #F4C63D;
+  color: #453D3F;
+  font-family: Oxygen,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  text-align: center;
+  pointer-events: none;
+  z-index: 100;
+  transition: opacity .2s linear; 
+}
+
+.chartist-tooltip:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top-color: #F4C63D; 
+}
+
+.chartist-tooltip.tooltip-show {
+    opacity: 1; 
+}
+
+.ct-area, .ct-line {
+  pointer-events: none; 
+}

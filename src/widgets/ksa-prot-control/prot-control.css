@@ -1,0 +1,15 @@
+.prot-control {
+    padding: 0.3em;
+}
+
+.sliding * {
+    color: #ccc;
+}
+
+.paused  label {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}

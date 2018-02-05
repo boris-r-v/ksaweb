@@ -1,0 +1,13 @@
+.webix-popup-label {
+  text-decoration: none;
+  border-bottom: dotted 1px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  color: black;
+}
+
+
+.webix_view > .webix-popup-label {
+  margin-left: 1em;
+  line-height: 32px;
+}

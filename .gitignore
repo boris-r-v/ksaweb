@@ -1,0 +1,7 @@
+ksaweb
+attempt1
+dist
+node_modules
+test/e2e/reports
+*.log
+.~*

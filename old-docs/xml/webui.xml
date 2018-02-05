@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ksa>
+    <gui:Window title='Библиотека веб-компонентов ksaweb' show='1'>
+			<gui:VBox show="1">
+				<packstart>
+					<webix:toolbar webix-pagging="3" >
+						<elements>
+							<webix:button webix-type="icon" webix-icon="bars" webix-width="47px"></webix:button>
+							<webix:label webix-label="Библиотека веб-компонентов ksaweb"></webix:label>
+						</elements>
+					</webix:toolbar>
+				</packstart>
+				<packstart>
+					<gui:HBox show="1" >
+						<packstart>
+							<webix:tree webix-gravity="0.35" webix-select="true" nav-target="main">
+									<data>
+											<item id="intro" value='Введение' selected="1"></item>
+											<item value='Руководства и Описания' open="1">
+													<item id="std-mpk" value='Построение интерфейсов для СТД-МПК'></item>
+													<item value='Сетевой протокол взаимодействия'></item>
+													<item value='XML-формат описания графических интерфейсов'></item>
+													<item value='Внесение изменений в библиотеку'></item>
+													<item value='Использвоание компонентов webix'></item>
+											</item>
+											<item value='Виджеты' open="1">
+													<item value='VectorDisplay - отображение SVG' icon="edit"></item>
+													<item value='SVGPViewer - виджет просмотра протоколов' icon="gears"></item>
+													<item value='SVGMViewer - виджет просмотра измерений' icon="gears"></item>
+													<item value='ProtControl - управление анимированным архивом' icon="gears"></item>
+											</item>
+									</data>
+							</webix:tree>
+						</packstart>
+						<packstart>
+							<webix:resizer></webix:resizer>
+						</packstart>
+							<packstart fill="1" expand="1" >
+							<webix:layout webix-id="main" webix-visible-batch="intro" webix-gravity="0.35">
+								<rows>
+									<webix:template webix-batch="intro">
+										Welcome
+									</webix:template>
+									<webix:template webix-batch="std-mpk">
+										STD MPK
+									</webix:template>
+								</rows>
+							</webix:layout>
+						</packstart>
+					</gui:HBox>
+				</packstart>
+			</gui:VBox>
+    </gui:Window>
+
+</ksa>
+

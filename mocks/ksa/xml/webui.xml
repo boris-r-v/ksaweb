@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ksa>
+
+    <gui:Main/>
+
+    <gui:Window title='Тестовое окружение KSAWEB' default_size='640x480' show='1'>
+		<gui:VBox show="1" >
+		    <packstart fill="1" expand="1" > 	
+				<gui:TabWidget show="1" >
+
+					<tabpage label="Станция">
+						<gui:ScrolledWindow show="1">
+							<gui:SvgRenderer id='renderer1' show='1' ksaweb-nozoom="1" filename='mnemo.svg' sender='sender' debug='0' />
+						</gui:ScrolledWindow>
+					</tabpage>
+
+					<tabpage label="Панель питания">
+					</tabpage>
+
+					<tabpage label="Инфрастуктура">
+					</tabpage>
+					
+					<tabpage label="Измерения">
+						<gui:SvgMViewer show="1" sender="sender"/>
+					</tabpage>
+
+					<tabpage label="События">
+					</tabpage>
+					
+				</gui:TabWidget >
+			</packstart>
+		</gui:VBox>
+    </gui:Window>
+
+</ksa>
+

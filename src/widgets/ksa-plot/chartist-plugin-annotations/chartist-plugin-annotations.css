@@ -1,0 +1,9 @@
+.ct-annotation-series-y .ct-point, .ct-annotation-series-x .ct-point {
+    stroke: gray;
+    stroke-width: 2px;
+    z-index: 1000;
+}
+
+.ct-annotation-series-ghost {
+    display: none;
+}

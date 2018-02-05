@@ -1,0 +1,56 @@
+.ct-line {
+  stroke-width: 2px;
+}
+
+.ct-point {
+  stroke-width: 5px;
+  stroke-linecap: circle;
+}
+
+.ct-legend .ct-series-0:before,    
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+  stroke: green;
+  background-color: green;
+  border-color: green;
+}
+
+.ct-legend .ct-series-1:before, 
+.ct-series-b .ct-line,
+.ct-series-b .ct-point {
+  stroke: dodgerblue;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+}
+
+.ct-legend .ct-series-2:before, 
+.ct-series-c .ct-line,
+.ct-series-c .ct-point {
+  stroke: red;
+  background-color: red;
+  border-color: red;
+}
+
+.ct-legend .ct-series-3:before, 
+.ct-series-d .ct-line,
+.ct-series-d .ct-point {
+  stroke: darkorange;
+  background-color: darkorange;
+  border-color: darkorange;
+}
+
+.ct-legend .ct-series-4:before, 
+.ct-series-e .ct-line,
+.ct-series-e .ct-point {
+  stroke: mediumorchid;
+  background-color: mediumorchid;
+  border-color: mediumorchid;
+}
+
+.ct-legend .ct-series-5:before, 
+.ct-series-f .ct-line,
+.ct-series-f .ct-point {
+  stroke: olivedrab;
+  background-color: olivedrab;
+  border-color: olivedrab;
+}

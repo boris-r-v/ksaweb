@@ -1,0 +1,13 @@
+.collapse-title {
+    height: 24px;
+    font-weight: bold;
+}
+
+.collapse-btn {
+    text-decoration: none;
+    color: gray;
+}
+
+.collapse-toggler {
+    min-width: 16px;
+}
